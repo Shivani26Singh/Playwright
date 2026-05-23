@@ -19,7 +19,11 @@ Expected: {"env":"stage","retries":2}
 */
 
 function mergeJsBasicsConfig(defaultConfig, overrideConfig) {
-    const result = {};
+    const result = {
+        env: undefined,
+        retries: undefined,
+        timeout: undefined
+    };
 
     result.env = defaultConfig.env;
     result.retries = defaultConfig.retries;
