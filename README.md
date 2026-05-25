@@ -16,6 +16,12 @@ This repository contains materials for a JavaScript + Playwright + AI course. It
 - `chapter_04_Javascript_Concepts/` - Advanced JavaScript concepts including variables (var, let, const), functions, scope, and hoisting
 - `chapter_05_Literal/` - JavaScript literals including null, undefined, number, and string literal types
 - `chapter_06_Operator/` - JavaScript operators including arithmetic, comparison, logical, ternary, and type operators
+- `chapter_07_If_else/` - Conditional statements (if, if-else, if-else if-else) with real-world QA scenarios
+- `chapter_08_Switch_Statement/` - Switch-case statements, fall-through behavior, default cases, and grouped cases
+- `chapter_09_UserInput/` - Taking user input via prompt, Node.js readline, and prompt-sync
+- `chapter_10_Loops/` - Looping constructs: for, while, do-while, for-of, for-in, forEach with IQ exercises
+- `chapter_11_Arrays/` - Array creation, access, modification, reference vs copy, adding/removing elements, searching, iteration, and transformation
+- `Coding/` - Practice coding questions and challenges across all topics
 
 ## Chapter Details
 
@@ -77,6 +83,84 @@ This repository contains materials for a JavaScript + Playwright + AI course. It
 - `42_Type_Op.js` - typeof operator
 - `43_Incre_Decre_Op.js` - Increment and decrement operators
 - `44_Null_Op.js` - Null coalescing and nullish operators
+- `45_Post_Increment.js` - Post-increment operator behavior
+- `46_IQ_INCREMENT_D.js` - Increment/decrement IQ exercises
+- `47_Advance_ID_.js` - Advanced increment/decrement scenarios
+- `Ques_2NoMaxUsingTernary.js` - Find max of 2 numbers using ternary
+- `Ques_3NoMaxUsingTernary.js` - Find max of 3 numbers using ternary
+- `Ques_IncDecr.js` - Increment/decrement practice questions
+
+### `chapter_07_If_else/`
+- `48_IF_ESLE.js` - Basic if-else for voting eligibility
+- `49_If_elseif_else.js` - if-else if-else ladder syntax
+- `50_REAL_IF_ELSE.js` - Real-world conditional scenarios
+- `51_API_IF_ELSE.js` - API response handling with if-else
+- `52_IQ_IF_ELSE.js` - if-else IQ exercises
+- `53_IF_ELSE_real.js` - More real-world conditional examples
+- `54_IQ.js` - Conditional logic IQ questions
+- `55_IE.js` - Additional if-else exercises
+- `56_Ques_NumEvenOdd.js` - Check if a number is even or odd
+- `57_Ques_GradeCalcStudent.js` - Student grade calculator
+- `58_Ques_LeapYear.js` - Leap year checker
+- `IQ_Ques_BugSeverity.js` - Bug severity classifier
+- `IQ_Ques_BuildHealthReporter.js` - Build health status reporter
+- `IQ_Ques_FinalElseOptional.js` - Understanding when else is optional
+- `IQ_Ques_HTTPStatusCodeCategorizer.js` - HTTP status code categorizer
+- `IQ_Ques_LockoutAfterFailedAttempts.js` - Account lockout after failed login attempts
+- `IQ_Ques_PassFailVerdict.js` - Pass/fail test verdict logic
+- `IQ_Ques_ResponseNullCheck.js` - API response null check handling
+
+### `chapter_08_Switch_Statement/`
+- `59_Switch.js` - Switch-case with strict comparison (===), break, and default
+- `60_No_Break.js` - Fall-through behavior when break is omitted
+- `61_Default.js` - Default case placement and behavior
+- `62_REAL_TIME_EXAMPLE.js` - Real-world switch applications
+- `63_Switch_Group.js` - Grouping multiple cases for shared logic
+- `64_IQ.js` - Switch statement IQ exercise 1
+- `65_IQ2.js` - Switch statement IQ exercise 2
+- `66_IQ3.js` - Switch statement IQ exercise 3
+- `67_IQ4.js` - Switch statement IQ exercise 4
+
+### `chapter_09_UserInput/`
+- `68_User_Input.js` - Browser prompt for user input (browser-only)
+- `69_Node_readline.js` - Node.js readline module for CLI input
+- `70_prompt_sync.js` - prompt-sync package for synchronous user input in Node.js
+
+### `chapter_10_Loops/`
+- `71_For_loop.js` - Introduction to for loops and code repetition
+- `72_For_loop.js` - For loop syntax and iteration
+- `73_For_Loop2.js` - Advanced for loop patterns
+- `74_IQ.js` - Loop IQ exercises
+- `75_For_OF_IN_EACH.js` - for-of, for-in, and forEach loops
+- `76_While.js` - While loop syntax and usage
+- `77_Do_While.js` - Do-while loop (guaranteed at least one execution)
+- `78_Do_While.js` - Additional do-while examples
+- `79_IQ.js` - Loop IQ exercise 1
+- `80_IQ.js` - Loop IQ exercise 2
+- `81_IQ.js` - Loop IQ exercise 3
+- `82_IQ.js` - Loop IQ exercise 4
+- `IQ_Ques_FizzBuzz.js` - Classic FizzBuzz problem
+- `IQ_Ques_TraiangleClassifier.js` - Triangle classifier using loops and conditionals
+
+### `chapter_11_Arrays/`
+- `83_Arrays.js` - Array creation, indexing, mixed types, const arrays, reference vs copy
+- `84_Arrays.js` - Additional array fundamentals
+- `85_Access_Array.js` - Accessing array elements by index
+- `86_Arrays_Adding_Remove.js` - push, pop, shift, unshift for adding/removing elements
+- `87_Adding_Remove2.js` - splice and other array mutation methods
+- `88_REAL_Example.js` - Real-world array use cases
+- `89_Searching.js` - Searching arrays with indexOf, includes, find
+- `90_Iterate.js` - Iterating arrays with loops and forEach
+- `91_Transform_Array.js` - Transforming arrays with map, filter, reduce
+
+### `Coding/`
+- `3_Ques.js` - QA score classifier with validation
+- `4_Ques.js` - Coding practice question
+- `8_Ques.js` - Coding practice question
+- `9_Ques.js` - Coding practice question
+- `10_Ques.js` - Coding practice question
+- `13_Ques.js` - Coding practice question
+- `15_Ques.js` - Coding practice question
 
 ## Getting Started
 
