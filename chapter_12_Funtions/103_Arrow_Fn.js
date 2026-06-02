@@ -20,3 +20,24 @@ console.log(doubleIt(10));  // 20
 
 const printIt = name => console.log(name);
 printIt("Singh");  // Singh
+
+// Arrow function
+function add(a, b) {
+    return a + b;
+}
+
+const add2 = (a, b) => a + b;
+
+function say() {
+    console.log("Hi");
+}
+
+const say1 = () => console.log("Hi");
+const say2 = () => 'Hi';
+console.log(say1()); // Output: Hi (and undefined because say1 does not return a value)
+console.log(say2()); // Output: Hi (say2 returns the string "Hi")
+
+const greet = (name) => {
+    const message = "Hi" + name;
+    return message;
+}
