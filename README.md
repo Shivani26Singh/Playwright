@@ -20,8 +20,16 @@ This repository contains materials for a JavaScript + Playwright + AI course. It
 - `chapter_08_Switch_Statement/` - Switch-case statements, fall-through behavior, default cases, and grouped cases
 - `chapter_09_UserInput/` - Taking user input via prompt, Node.js readline, and prompt-sync
 - `chapter_10_Loops/` - Looping constructs: for, while, do-while, for-of, for-in, forEach with IQ exercises
-- `chapter_11_Arrays/` - Array creation, access, modification, reference vs copy, adding/removing elements, searching, iteration, and transformation
+- `chapter_11_Arrays/` - Array creation, access, modification, reference vs copy, adding/removing elements, searching, iteration, transformation, slicing, concatenation, and array checking
+- `chapter_12_Funtions/` - Function types (no param/no return through with param/with return), function expressions, arrow functions, IIFE, default parameters, rest parameters, spread, scope, closures, higher-order functions, and pure functions
+- `chapter_13_Strings/` - String creation, properties, search/check methods, substring extraction, transformations, string-number conversion, and string cheat sheet
+- `chapter_14_Objects/` - Object basics, creation patterns, primitive vs reference types, JSON vs JS objects, dynamic property access, methods, destructuring, spread, getters/setters, Object.keys/values/entries, and let vs const with objects
+- `chapter_15_2D_Array/` - 2D array creation and iteration, real-world test matrices, map/reduce/filter on 2D arrays, and star pattern IQ exercises
+- `chapter_16_Callback/` - Callback fundamentals, Playwright callback patterns, sync vs async callbacks, callback hell, callbacks with parameters, and callbacks returning values
+- `chapter_17_Promise/` - Promise creation/states, then/catch/finally, promise chaining, Promise.all, Promise.allSettled, and interview questions
+- `chapter_18_Async_Await/` - Async/await syntax, try/catch/finally with async, extracting resolved values, async/await vs promise chaining, sequential/parallel execution, and real Playwright tests
 - `Coding/` - Practice coding questions and challenges across all topics
+- `interview.md` - JavaScript interview notes covering object references, const vs let with objects, and Object.freeze
 
 ## Chapter Details
 
@@ -152,6 +160,104 @@ This repository contains materials for a JavaScript + Playwright + AI course. It
 - `89_Searching.js` - Searching arrays with indexOf, includes, find
 - `90_Iterate.js` - Iterating arrays with loops and forEach
 - `91_Transform_Array.js` - Transforming arrays with map, filter, reduce
+- `92_Arrays.js` - Additional array fundamentals and operations
+- `93_Array_Slicing.js` - Array slicing and extraction
+- `94_Concat_array.js` - Array concatenation techniques
+- `95_Array_Checking.js` - Array checking and validation methods
+- `JS_Arrays_CheastSheet.md` - Comprehensive arrays cheat sheet
+
+### `chapter_12_Funtions/`
+- `96_Functions.js` - Basic function definition and calling
+- `97_Type1_Fn_Basic_Functions.js` - Type 1: No param, no return (simplest form)
+- `98_Type2_Fn_With_Param_No_Return.js` - Type 2: With param, no return
+- `99_Type3_Fn_without_Param_Return_Type.js` - Type 3: No param, with return
+- `100_Type4_Fn_With_Param_With_Return.js` - Type 4: With param, with return (e.g., sum)
+- `101_Template_literal.js` - Template literals inside function bodies
+- `102_Fn_Expression.js` - Function expressions assigned to const variables
+- `103_Arrow_Fn.js` - Arrow functions with single-param shorthand
+- `104_Arrow_Fn_REAL.js` - Arrow functions — real-world HTTP status validation
+- `105_IIFE.js` - IIFE (Immediately Invoked Function Expression)
+- `106_Default_Param_Fn.js` - Default parameters in function signatures
+- `107_IQ.js` - Interview Q: return values and string interpolation
+- `108_Rest_Param_Fn.js` - Rest parameters (`...results`) to capture indefinite arguments
+- `109_IQ.js` - Interview Q: hoisting, function declaration vs expression, undefined returns
+- `110_Spead_IQ.js` - Spread operator to pass array elements as function arguments
+- `111_Scope._Fn.js` - Function scope: global vs local variable access
+- `112_IQ.js` - Nested/blocked scope and variable visibility
+- `113_Closure.js` - Closure basics — inner function retaining outer scope
+- `114_Closure.js` - Closure — counter factory (increment/decrement/get)
+- `115_API_REAL_Closure.js` - Closure — retry tracker for real-world API testing
+- `116_Higher_Order_Fn.js` - Higher-order functions taking functions as arguments
+- `117_Pure_Fn.js` - Pure vs impure functions
+
+### `chapter_13_Strings/`
+- `118_Strings.js` - String creation with quotes, template literals, and String() conversion
+- `119_String_Properties.js` - `length`, `[index]`, `at()`, `charAt()`, `charCodeAt()`
+- `120_Search_Check_Str.js` - `includes()`, `startsWith()`, `endsWith()`, `indexOf()`, `search()`
+- `121_Substring.js` - `slice()`, `substring()`, `at()` for extracting substrings
+- `122_Transform_Str.js` - `toUpperCase()`, `toLowerCase()`, `trim()`, `replace()`, `split()`/`join()`
+- `123_SC.js` - String-to-number conversion: `toString()`, `parseInt()`, `parseFloat()`
+- `IQ_Anagrams.js` - Anagram checker (sort characters and compare)
+- `IQ_Palingdrome.js` - Palindrome checker (reverse and manual loop methods)
+- `javascript_stringcheatsheet.md` - Comprehensive string methods cheat sheet with Playwright use cases
+
+### `chapter_14_Objects/`
+- `124_Objects.js` - Object basics: creation, JS object vs JSON syntax
+- `125_Objects2.js` - Dot vs bracket notation, reference comparison (`===` on objects)
+- `126_Objects_Creation.js` - Object creation and reference comparison reinforcement
+- `127_Objects_REAL.js` - Dynamic config object with add/delete properties
+- `128_Primitive_Ref.js` - Primitive (by value) vs object (by reference) behavior
+- `129_Ob_Examples.js` - JSON vs JS object syntax comparison
+- `130_IQ.js` - Dynamic property access with bracket notation and variables
+- `131_Object_Fn.js` - Methods in objects (functions as property values)
+- `132_Obj_Decon.js` - Object destructuring, renaming, defaults, nested destructuring
+- `133_SpreadOp.js` - Spread operator for shallow copying objects
+- `134_Objects_GET_SET_Methods.js` - Getters and setters with `this` keyword
+- `135_IQ` - `Object.keys()`, `Object.values()`, `Object.entries()`, `for...in`
+- `136_Obj_REAL.js` - Real-world config with ENV constants, test user credentials
+- `137_Let_const_obj.js` - let vs const with objects (mutation allowed, reassignment blocked)
+
+### `chapter_15_2D_Array/`
+- `138_2D_Array.js` - 2D array creation and nested for loop iteration
+- `139_2d.js` - `grid.length` (rows), `grid[0].length` (columns), cell access
+- `140_REAL.js` - Real test matrix: `[testName, status, duration]` with multiple iteration styles
+- `141_2d_Array_Fn.js` - 2D array operations: map, reduce, filter, jagged arrays
+- `142_IQ_Right_Pattern_Py.js` - Right-triangle star pattern with nested loops
+- `IQ_Pyramid.js` - Centered pyramid star pattern
+- `IQ_Reverse_Py.js` - Reverse triangle pattern
+
+### `chapter_16_Callback/`
+- `143_Callback.js` - Callback intro — named, anonymous, and arrow function callbacks
+- `144_CB.js` - Callbacks in testing — simulating Playwright's `test(name, callback)`
+- `145_CB_Fn.js` - Callback café analogy explaining "pass a function, execute later"
+- `146_PW_CB.js` - Real Playwright callback pattern with `test('name', () => {...})`
+- `147_JS_CB.js` - Async callback with setTimeout — non-blocking execution order
+- `148_Sync_CB.js` - Synchronous callbacks with forEach
+- `149_Async_CB.js` - Async callback: concise setTimeout demo
+- `150_CB_Hell.js` - Callback Hell / Pyramid of Doom with 4-step login flow
+- `151_CB_Hell_20_Steps.js` - Callback Hell — 24-step E2E checkout flow
+- `152_CB_Parameter.js` - Callbacks receiving parameters (e.g., `(value, index)`)
+- `153_CB_Return.js` - Callbacks that return computed values to the caller
+
+### `chapter_17_Promise/`
+- `154_Promise.js` - Promise basics: `new Promise((resolve, reject) => {...})`, states
+- `155_Promise_Real_API.js` - `.then()` chaining — success case with resolved API response
+- `155_Promise_Real_API_pt2.js` - `.catch()` — error handling with rejected Promises
+- `157_Finally.js` - `.finally()` — cleanup that always runs (success or failure)
+- `158_Call_Py_Problem.js` - Promise chain rejection: skipped `.then()`, caught in `.catch()`
+- `159_Promise_All.js` - `Promise.all()` — parallel execution, all-or-nothing
+- `159_Promise_All_pt2.js` - `Promise.allSettled()` — waits for all regardless of outcome
+- `160_Promise_IQ.js` - Interview Q: `Promise.all()` vs `Promise.allSettled()` comparison
+
+### `chapter_18_Async_Await/`
+- `161_Async.js` - Async/await with try/catch/finally for error handling
+- `162_Aysnc_P2.js` - `await` unwrapping Promise resolved values
+- `163_PyODom.js` - Async/await vs Promise chaining — same logic, cleaner syntax
+- `164_Async_Ex.js` - Async functions implicitly return Promises; Playwright test example
+- `165_AA_Parallel.js` - Parallel execution with `Promise.allSettled()` + `await`
+- `165_AA_Seq.js` - Sequential execution: three `await` calls run one after another
+- `166_IQ.js` - Interview Q: async/await deep dive with Playwright connections
+- `167_ACLogin.js` - Real Playwright login test with `test.step()`, page object, assertions
 
 ### `Coding/`
 - `3_Ques.js` - QA score classifier with validation
