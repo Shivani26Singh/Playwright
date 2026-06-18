@@ -28,6 +28,7 @@ This repository contains materials for a JavaScript + Playwright + AI course. It
 - `chapter_16_Callback/` - Callback fundamentals, Playwright callback patterns, sync vs async callbacks, callback hell, callbacks with parameters, and callbacks returning values
 - `chapter_17_Promise/` - Promise creation/states, then/catch/finally, promise chaining, Promise.all, Promise.allSettled, and interview questions
 - `chapter_18_Async_Await/` - Async/await syntax, try/catch/finally with async, extracting resolved values, async/await vs promise chaining, sequential/parallel execution, and real Playwright tests
+- `chapter_19_Playwright_Basics/` - Playwright test setup, TypeScript config, test runner CLI commands, VS Code integration, and browser automation tests
 - `Coding/` - Practice coding questions and challenges across all topics
 - `interview.md` - JavaScript interview notes covering object references, const vs let with objects, and Object.freeze
 
@@ -259,6 +260,12 @@ This repository contains materials for a JavaScript + Playwright + AI course. It
 - `166_IQ.js` - Interview Q: async/await deep dive with Playwright connections
 - `167_ACLogin.js` - Real Playwright login test with `test.step()`, page object, assertions
 
+### `chapter_19_Playwright_Basics/`
+- Playwright test setup with TypeScript configuration (`tsconfig.json`, `playwright.config.ts`)
+- Tests for Playwright.dev (`has title`, `get started link`) and TTA Cart login
+- VS Code integration setup (Playwright Test extension, Code Runner workaround via `.vscode/settings.json`)
+- README with install steps, CLI commands, and troubleshooting (Firefox `msvcp140_1.dll`, TypeScript errors)
+
 ### `Coding/`
 - `3_Ques.js` - QA score classifier with validation
 - `4_Ques.js` - Coding practice question
@@ -269,6 +276,9 @@ This repository contains materials for a JavaScript + Playwright + AI course. It
 - `15_Ques.js` - Coding practice question
 
 ## Getting Started
+
+> **See `chapter_19_Playwright_Basics/README.md` for detailed Playwright setup instructions, CLI commands, and troubleshooting.
+
 
 ### Prerequisites
 
@@ -282,7 +292,8 @@ This repository contains materials for a JavaScript + Playwright + AI course. It
 2. Install Playwright if needed:
 
 ```bash
-npm install playwright
+npm install
+npx playwright install
 ```
 
 3. Optionally install other dependencies if a project is added later.
